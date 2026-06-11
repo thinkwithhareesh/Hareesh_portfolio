@@ -1270,6 +1270,25 @@ img, canvas {
 /* ==========================================================================
    MEDIA QUERIES (RESPONSIVENESS)
    ========================================================================== */
+@media (min-width: 980px) and (max-width: 1024px) {
+  /* Remove huge vertical black spaces in Desktop Mode on mobile */
+  .hero-section {
+    height: auto !important;
+    min-height: 620px !important;
+    padding-top: 140px !important;
+    padding-bottom: 80px !important;
+  }
+
+  /* Prevent face card from overflowing the column width in Desktop Mode on mobile */
+  .portrait-card {
+    width: 100% !important;
+    max-width: 420px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+  }
+}
+
 @media (max-width: 979px) {
   .terminal-logs, .tech-coordinates {
     display: none; /* Hide decorative absolute text on smaller viewports to prevent overlaps */
