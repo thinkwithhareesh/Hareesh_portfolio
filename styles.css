@@ -557,6 +557,14 @@ img, canvas {
   max-height: none !important;
 }
 
+/* Specific override for mobile devices in Desktop Mode to remove huge vertical black spaces */
+.desktop-mode-active .hero-section {
+  height: auto !important;
+  min-height: 620px !important;
+  padding-top: 140px !important;
+  padding-bottom: 80px !important;
+}
+
 /* On hover, scale card slightly for parallax tilt and amplify premium glow */
 .portrait-card:hover {
   border-color: rgba(163, 255, 18, calc(var(--proximity-glow, 0.25) * 1.2));
