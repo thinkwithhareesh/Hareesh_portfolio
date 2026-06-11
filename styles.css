@@ -526,12 +526,10 @@ img, canvas {
 /* HUD Targeting Portrait Styles */
 
 .portrait-card {
-  height: 68vh;
-  max-height: 620px;
-  min-height: 400px;
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 460px;
   aspect-ratio: 3 / 4;
+  height: auto;
   position: relative;
   transition: transform 0.1s ease-out, opacity 0.4s ease, border-color 0.15s ease, box-shadow 0.15s ease;
   background-color: #121212;
@@ -1329,9 +1327,9 @@ img, canvas {
   }
 
   .portrait-card {
-    height: 52vh;
-    max-height: 500px;
-    min-height: 350px;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
   }
 
   .about-grid {
@@ -1376,9 +1374,9 @@ img, canvas {
   }
   
   .portrait-card {
-    height: 45vh;
-    max-height: 380px;
-    min-height: 300px;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
   }
 
   .quick-facts {
