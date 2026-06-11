@@ -530,6 +530,7 @@ img, canvas {
   max-height: 620px;
   min-height: 400px;
   width: auto;
+  max-width: 100%;
   aspect-ratio: 3 / 4;
   position: relative;
   transition: transform 0.1s ease-out, opacity 0.4s ease, border-color 0.15s ease, box-shadow 0.15s ease;
