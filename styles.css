@@ -1253,13 +1253,13 @@ img, canvas {
 /* ==========================================================================
    MEDIA QUERIES (RESPONSIVENESS)
    ========================================================================== */
-@media (max-width: 1024px) {
+@media (max-width: 979px) {
   .terminal-logs, .tech-coordinates {
     display: none; /* Hide decorative absolute text on smaller viewports to prevent overlaps */
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 979px) {
   .nav-links, .btn-hire-nav {
     display: none;
   }
